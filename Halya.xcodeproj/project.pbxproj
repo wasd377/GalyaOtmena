@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8247E4B22B765C5900B7037B /* HalyaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4B12B765C5900B7037B /* HalyaApp.swift */; };
+		8247E4B42B765C5900B7037B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4B32B765C5900B7037B /* ContentView.swift */; };
+		8247E4B62B765C5A00B7037B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8247E4B52B765C5A00B7037B /* Assets.xcassets */; };
+		8247E4B92B765C5A00B7037B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8247E4B82B765C5A00B7037B /* Preview Assets.xcassets */; };
+		8247E4C32B765C5B00B7037B /* HalyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4C22B765C5B00B7037B /* HalyaTests.swift */; };
+		8247E4CD2B765C5B00B7037B /* HalyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4CC2B765C5B00B7037B /* HalyaUITests.swift */; };
+		8247E4CF2B765C5B00B7037B /* HalyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4CE2B765C5B00B7037B /* HalyaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8247E4BF2B765C5B00B7037B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8247E4A62B765C5900B7037B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8247E4AD2B765C5900B7037B;
+			remoteInfo = Halya;
+		};
+		8247E4C92B765C5B00B7037B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8247E4A62B765C5900B7037B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8247E4AD2B765C5900B7037B;
+			remoteInfo = Halya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8247E4AE2B765C5900B7037B /* Halya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Halya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8247E4B12B765C5900B7037B /* HalyaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalyaApp.swift; sourceTree = "<group>"; };
+		8247E4B32B765C5900B7037B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8247E4B52B765C5A00B7037B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8247E4B82B765C5A00B7037B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8247E4BE2B765C5B00B7037B /* HalyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8247E4C22B765C5B00B7037B /* HalyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalyaTests.swift; sourceTree = "<group>"; };
+		8247E4C82B765C5B00B7037B /* HalyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8247E4CC2B765C5B00B7037B /* HalyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalyaUITests.swift; sourceTree = "<group>"; };
+		8247E4CE2B765C5B00B7037B /* HalyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8247E4AB2B765C5900B7037B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247E4BB2B765C5B00B7037B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247E4C52B765C5B00B7037B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8247E4A52B765C5900B7037B = {
+			isa = PBXGroup;
+			children = (
+				8247E4B02B765C5900B7037B /* Halya */,
+				8247E4C12B765C5B00B7037B /* HalyaTests */,
+				8247E4CB2B765C5B00B7037B /* HalyaUITests */,
+				8247E4AF2B765C5900B7037B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8247E4AF2B765C5900B7037B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8247E4AE2B765C5900B7037B /* Halya.app */,
+				8247E4BE2B765C5B00B7037B /* HalyaTests.xctest */,
+				8247E4C82B765C5B00B7037B /* HalyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8247E4B02B765C5900B7037B /* Halya */ = {
+			isa = PBXGroup;
+			children = (
+				8247E4B12B765C5900B7037B /* HalyaApp.swift */,
+				8247E4B32B765C5900B7037B /* ContentView.swift */,
+				8247E4B52B765C5A00B7037B /* Assets.xcassets */,
+				8247E4B72B765C5A00B7037B /* Preview Content */,
+			);
+			path = Halya;
+			sourceTree = "<group>";
+		};
+		8247E4B72B765C5A00B7037B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8247E4B82B765C5A00B7037B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8247E4C12B765C5B00B7037B /* HalyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8247E4C22B765C5B00B7037B /* HalyaTests.swift */,
+			);
+			path = HalyaTests;
+			sourceTree = "<group>";
+		};
+		8247E4CB2B765C5B00B7037B /* HalyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8247E4CC2B765C5B00B7037B /* HalyaUITests.swift */,
+				8247E4CE2B765C5B00B7037B /* HalyaUITestsLaunchTests.swift */,
+			);
+			path = HalyaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8247E4AD2B765C5900B7037B /* Halya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8247E4D22B765C5B00B7037B /* Build configuration list for PBXNativeTarget "Halya" */;
+			buildPhases = (
+				8247E4AA2B765C5900B7037B /* Sources */,
+				8247E4AB2B765C5900B7037B /* Frameworks */,
+				8247E4AC2B765C5900B7037B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Halya;
+			productName = Halya;
+			productReference = 8247E4AE2B765C5900B7037B /* Halya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8247E4BD2B765C5B00B7037B /* HalyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8247E4D52B765C5B00B7037B /* Build configuration list for PBXNativeTarget "HalyaTests" */;
+			buildPhases = (
+				8247E4BA2B765C5B00B7037B /* Sources */,
+				8247E4BB2B765C5B00B7037B /* Frameworks */,
+				8247E4BC2B765C5B00B7037B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8247E4C02B765C5B00B7037B /* PBXTargetDependency */,
+			);
+			name = HalyaTests;
+			productName = HalyaTests;
+			productReference = 8247E4BE2B765C5B00B7037B /* HalyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8247E4C72B765C5B00B7037B /* HalyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8247E4D82B765C5B00B7037B /* Build configuration list for PBXNativeTarget "HalyaUITests" */;
+			buildPhases = (
+				8247E4C42B765C5B00B7037B /* Sources */,
+				8247E4C52B765C5B00B7037B /* Frameworks */,
+				8247E4C62B765C5B00B7037B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8247E4CA2B765C5B00B7037B /* PBXTargetDependency */,
+			);
+			name = HalyaUITests;
+			productName = HalyaUITests;
+			productReference = 8247E4C82B765C5B00B7037B /* HalyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8247E4A62B765C5900B7037B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8247E4AD2B765C5900B7037B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8247E4BD2B765C5B00B7037B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8247E4AD2B765C5900B7037B;
+					};
+					8247E4C72B765C5B00B7037B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8247E4AD2B765C5900B7037B;
+					};
+				};
+			};
+			buildConfigurationList = 8247E4A92B765C5900B7037B /* Build configuration list for PBXProject "Halya" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8247E4A52B765C5900B7037B;
+			productRefGroup = 8247E4AF2B765C5900B7037B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8247E4AD2B765C5900B7037B /* Halya */,
+				8247E4BD2B765C5B00B7037B /* HalyaTests */,
+				8247E4C72B765C5B00B7037B /* HalyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8247E4AC2B765C5900B7037B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8247E4B92B765C5A00B7037B /* Preview Assets.xcassets in Resources */,
+				8247E4B62B765C5A00B7037B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247E4BC2B765C5B00B7037B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247E4C62B765C5B00B7037B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8247E4AA2B765C5900B7037B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8247E4B42B765C5900B7037B /* ContentView.swift in Sources */,
+				8247E4B22B765C5900B7037B /* HalyaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247E4BA2B765C5B00B7037B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8247E4C32B765C5B00B7037B /* HalyaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247E4C42B765C5B00B7037B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8247E4CF2B765C5B00B7037B /* HalyaUITestsLaunchTests.swift in Sources */,
+				8247E4CD2B765C5B00B7037B /* HalyaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8247E4C02B765C5B00B7037B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8247E4AD2B765C5900B7037B /* Halya */;
+			targetProxy = 8247E4BF2B765C5B00B7037B /* PBXContainerItemProxy */;
+		};
+		8247E4CA2B765C5B00B7037B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8247E4AD2B765C5900B7037B /* Halya */;
+			targetProxy = 8247E4C92B765C5B00B7037B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8247E4D02B765C5B00B7037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8247E4D12B765C5B00B7037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8247E4D32B765C5B00B7037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Halya/Preview Content\"";
+				DEVELOPMENT_TEAM = CR68PP2Z3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = temp.Halya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8247E4D42B765C5B00B7037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Halya/Preview Content\"";
+				DEVELOPMENT_TEAM = CR68PP2Z3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = temp.Halya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8247E4D62B765C5B00B7037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CR68PP2Z3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = temp.HalyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Halya";
+			};
+			name = Debug;
+		};
+		8247E4D72B765C5B00B7037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CR68PP2Z3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = temp.HalyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Halya";
+			};
+			name = Release;
+		};
+		8247E4D92B765C5B00B7037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CR68PP2Z3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = temp.HalyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Halya;
+			};
+			name = Debug;
+		};
+		8247E4DA2B765C5B00B7037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CR68PP2Z3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = temp.HalyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Halya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8247E4A92B765C5900B7037B /* Build configuration list for PBXProject "Halya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8247E4D02B765C5B00B7037B /* Debug */,
+				8247E4D12B765C5B00B7037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8247E4D22B765C5B00B7037B /* Build configuration list for PBXNativeTarget "Halya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8247E4D32B765C5B00B7037B /* Debug */,
+				8247E4D42B765C5B00B7037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8247E4D52B765C5B00B7037B /* Build configuration list for PBXNativeTarget "HalyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8247E4D62B765C5B00B7037B /* Debug */,
+				8247E4D72B765C5B00B7037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8247E4D82B765C5B00B7037B /* Build configuration list for PBXNativeTarget "HalyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8247E4D92B765C5B00B7037B /* Debug */,
+				8247E4DA2B765C5B00B7037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8247E4A62B765C5900B7037B /* Project object */;
+}
