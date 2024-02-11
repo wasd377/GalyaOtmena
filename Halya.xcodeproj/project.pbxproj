@@ -14,6 +14,8 @@
 		8247E4C32B765C5B00B7037B /* HalyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4C22B765C5B00B7037B /* HalyaTests.swift */; };
 		8247E4CD2B765C5B00B7037B /* HalyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4CC2B765C5B00B7037B /* HalyaUITests.swift */; };
 		8247E4CF2B765C5B00B7037B /* HalyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4CE2B765C5B00B7037B /* HalyaUITestsLaunchTests.swift */; };
+		8247E4DC2B78D25100B7037B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4DB2B78D25100B7037B /* Model.swift */; };
+		8247E4DE2B78D37B00B7037B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4DD2B78D37B00B7037B /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8247E4C82B765C5B00B7037B /* HalyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8247E4CC2B765C5B00B7037B /* HalyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalyaUITests.swift; sourceTree = "<group>"; };
 		8247E4CE2B765C5B00B7037B /* HalyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8247E4DB2B78D25100B7037B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8247E4DD2B78D37B00B7037B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				8247E4B12B765C5900B7037B /* HalyaApp.swift */,
 				8247E4B32B765C5900B7037B /* ContentView.swift */,
+				8247E4DB2B78D25100B7037B /* Model.swift */,
+				8247E4DD2B78D37B00B7037B /* ViewModel.swift */,
 				8247E4B52B765C5A00B7037B /* Assets.xcassets */,
 				8247E4B72B765C5A00B7037B /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8247E4DC2B78D25100B7037B /* Model.swift in Sources */,
 				8247E4B42B765C5900B7037B /* ContentView.swift in Sources */,
+				8247E4DE2B78D37B00B7037B /* ViewModel.swift in Sources */,
 				8247E4B22B765C5900B7037B /* HalyaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,8 +431,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,8 +459,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
