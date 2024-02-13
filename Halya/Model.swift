@@ -6,13 +6,16 @@
 //
 
 import Foundation
-import SwiftUI  
+import SwiftUI
+
+class InitialSettings {
+    var positions = [-300, -150, 0, 150, 300]
+}
 
 class Player: ObservableObject {
-    
+        
     var size = CGFloat(50)
     
-    var positions = [-300, -150, 0, 150, 300]
    @Published var currentPosition: Int
     
     func moveLeft() {
@@ -33,20 +36,42 @@ class Player: ObservableObject {
         }
     }
     
-    func makeCancelation() {
-        // some code
-    }
 
     init() {
-        self.currentPosition = positions.randomElement() ?? 0
+        self.currentPosition = InitialSettings().positions.randomElement()!
     }
     
 }
 
-class Cashier {
+class Cashier: ObservableObject, Identifiable {
+
+    var position: Int
     var size = CGFloat(50)
+    var hasCustomer : Bool
+    var cancelationRequired : Bool
+    
+    init(position: Int, hasCustomer: Bool, cancelationRequired: Bool) {
+        self.position = position
+        self.hasCustomer = false
+        self.cancelationRequired = false
+    }
+
 }
 
-class GameController {
+class Customer: ObservableObject, Identifiable {
+    
+    var id: Int
+    var position: Int
+    var distance: Int
+    var size = CGFloat(50)
+    
+    init(id: Int, position: Int, distance: Int) {
+        self.id = id
+        self.position = InitialSettings().positions.randomElement()!+Int(self.size)
+        self.distance = -distance
+    }
+}
+
+class GameController: ObservableObject {
     var size = CGFloat(75)
 }

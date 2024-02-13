@@ -16,6 +16,11 @@
 		8247E4CF2B765C5B00B7037B /* HalyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4CE2B765C5B00B7037B /* HalyaUITestsLaunchTests.swift */; };
 		8247E4DC2B78D25100B7037B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4DB2B78D25100B7037B /* Model.swift */; };
 		8247E4DE2B78D37B00B7037B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4DD2B78D37B00B7037B /* ViewModel.swift */; };
+		8247E4E02B7B64B400B7037B /* GameControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4DF2B7B64B400B7037B /* GameControllers.swift */; };
+		8247E4E22B7B690800B7037B /* Cashiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4E12B7B690800B7037B /* Cashiers.swift */; };
+		8247E4E42B7B6F7A00B7037B /* CashiersViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4E32B7B6F7A00B7037B /* CashiersViewViewModel.swift */; };
+		8247E4E62B7B74D800B7037B /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4E52B7B74D800B7037B /* Customers.swift */; };
+		8247E4E82B7B757700B7037B /* CustomersViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4E72B7B757700B7037B /* CustomersViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,11 @@
 		8247E4CE2B765C5B00B7037B /* HalyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8247E4DB2B78D25100B7037B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8247E4DD2B78D37B00B7037B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8247E4DF2B7B64B400B7037B /* GameControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllers.swift; sourceTree = "<group>"; };
+		8247E4E12B7B690800B7037B /* Cashiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cashiers.swift; sourceTree = "<group>"; };
+		8247E4E32B7B6F7A00B7037B /* CashiersViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashiersViewViewModel.swift; sourceTree = "<group>"; };
+		8247E4E52B7B74D800B7037B /* Customers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
+		8247E4E72B7B757700B7037B /* CustomersViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +110,12 @@
 			children = (
 				8247E4B12B765C5900B7037B /* HalyaApp.swift */,
 				8247E4B32B765C5900B7037B /* ContentView.swift */,
+				8247E4DF2B7B64B400B7037B /* GameControllers.swift */,
+				8247E4E12B7B690800B7037B /* Cashiers.swift */,
+				8247E4E32B7B6F7A00B7037B /* CashiersViewViewModel.swift */,
 				8247E4DB2B78D25100B7037B /* Model.swift */,
+				8247E4E52B7B74D800B7037B /* Customers.swift */,
+				8247E4E72B7B757700B7037B /* CustomersViewViewModel.swift */,
 				8247E4DD2B78D37B00B7037B /* ViewModel.swift */,
 				8247E4B52B765C5A00B7037B /* Assets.xcassets */,
 				8247E4B72B765C5A00B7037B /* Preview Content */,
@@ -267,6 +282,11 @@
 				8247E4B42B765C5900B7037B /* ContentView.swift in Sources */,
 				8247E4DE2B78D37B00B7037B /* ViewModel.swift in Sources */,
 				8247E4B22B765C5900B7037B /* HalyaApp.swift in Sources */,
+				8247E4E02B7B64B400B7037B /* GameControllers.swift in Sources */,
+				8247E4E42B7B6F7A00B7037B /* CashiersViewViewModel.swift in Sources */,
+				8247E4E22B7B690800B7037B /* Cashiers.swift in Sources */,
+				8247E4E82B7B757700B7037B /* CustomersViewViewModel.swift in Sources */,
+				8247E4E62B7B74D800B7037B /* Customers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
