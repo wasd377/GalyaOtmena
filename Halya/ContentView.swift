@@ -9,19 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     
-  
-    
     @EnvironmentObject var vm : ViewModel
  
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     @State var timeRemaining = 480
-    
     @State var cancelationRequired = false
     
     @ObservedObject var galya = Player()
     @ObservedObject var controller = GameController()
-  //  @ObservedObject var cashier = Cashier(position: 0)
     
     var body: some View {
         
@@ -29,22 +25,21 @@ struct ContentView: View {
         var timeRemainingMinutes = timeRemaining % 60
         
         ZStack {
+            Image("floor")
+                .resizable()
+                .ignoresSafeArea()
             Group {
-                timeRemaining == 480 ? Text("Время до конца смены: 8:00") : Text("Время до конца смены: \(timeRemainingHours):\(timeRemainingMinutes)")
+                GameInformationView(galya: galya, timeRemaining: timeRemaining, cancelationProbability: 0)
+                  
             }
-                .position(x: 0, y: 0)
-                .padding(.top, 50)
-                .padding(.leading, 100)
-            Text("\(galya.currentPosition)")
-                .offset(y: CGFloat(-150))
-            Text("\(vm.cancelationProbability)")
-                .offset(x: 100, y:CGFloat(-150))
+         
+        //   Customers()          
+            Cashiers()
+            GameControllers(galya: galya)
+            GalyaView(galya: galya)
+                
             
-           Cashiers()
-           Customers()
-           GameControllers(galya: galya)
         }
-        .border(.green)
         .onReceive(timer) {_ in 
             vm.rollCancelation()
             countDown()
@@ -84,7 +79,7 @@ struct ContentView_Previews: PreviewProvider {
     
     static var previews: some View {
         ContentView()
-            .environmentObject(ViewModel(timeRemaining: timeRemaining, timeRemainingHours: timeRemainingHours, timeRemainingMinutes: timeRemainingMinutes, cancelationProbability: cancelationProbability))
+            .environmentObject(ViewModel())
             .environmentObject(CashierViewViewModel())
     }
 }

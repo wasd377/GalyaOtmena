@@ -9,17 +9,18 @@ import Foundation
 import SwiftUI
 
 class InitialSettings {
-    var positions = [-300, -150, 0, 150, 300]
+    var positions = [-150, 0, 150]
 }
 
 class Player: ObservableObject {
         
+    var initialSettings = InitialSettings()
     var size = CGFloat(50)
     
    @Published var currentPosition: Int
     
     func moveLeft() {
-        if currentPosition > -300 {
+        if currentPosition > initialSettings.positions.first! {
             withAnimation {
                 currentPosition -= 150
                 print(currentPosition)
@@ -28,7 +29,7 @@ class Player: ObservableObject {
     }
     
     func moveRight() {
-        if currentPosition < 300 {
+        if currentPosition < initialSettings.positions.last! {
             withAnimation {
                 currentPosition += 150
                 print(currentPosition)

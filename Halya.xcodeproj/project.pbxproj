@@ -21,6 +21,10 @@
 		8247E4E42B7B6F7A00B7037B /* CashiersViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4E32B7B6F7A00B7037B /* CashiersViewViewModel.swift */; };
 		8247E4E62B7B74D800B7037B /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4E52B7B74D800B7037B /* Customers.swift */; };
 		8247E4E82B7B757700B7037B /* CustomersViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247E4E72B7B757700B7037B /* CustomersViewViewModel.swift */; };
+		825E4F922B7CC2030009F499 /* GameInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825E4F912B7CC2030009F499 /* GameInformationView.swift */; };
+		825E4F962B7CCC5E0009F499 /* StartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825E4F952B7CCC5E0009F499 /* StartScreenView.swift */; };
+		825E4F982B7CCFA10009F499 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825E4F972B7CCFA10009F499 /* TestView.swift */; };
+		825E4F9A2B7CD66D0009F499 /* GalyaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825E4F992B7CD66D0009F499 /* GalyaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		8247E4E32B7B6F7A00B7037B /* CashiersViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashiersViewViewModel.swift; sourceTree = "<group>"; };
 		8247E4E52B7B74D800B7037B /* Customers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
 		8247E4E72B7B757700B7037B /* CustomersViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersViewViewModel.swift; sourceTree = "<group>"; };
+		825E4F912B7CC2030009F499 /* GameInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInformationView.swift; sourceTree = "<group>"; };
+		825E4F952B7CCC5E0009F499 /* StartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenView.swift; sourceTree = "<group>"; };
+		825E4F972B7CCFA10009F499 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		825E4F992B7CD66D0009F499 /* GalyaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalyaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +117,16 @@
 			isa = PBXGroup;
 			children = (
 				8247E4B12B765C5900B7037B /* HalyaApp.swift */,
+				825E4F952B7CCC5E0009F499 /* StartScreenView.swift */,
 				8247E4B32B765C5900B7037B /* ContentView.swift */,
+				825E4F912B7CC2030009F499 /* GameInformationView.swift */,
 				8247E4DF2B7B64B400B7037B /* GameControllers.swift */,
+				825E4F992B7CD66D0009F499 /* GalyaView.swift */,
 				8247E4E12B7B690800B7037B /* Cashiers.swift */,
 				8247E4E32B7B6F7A00B7037B /* CashiersViewViewModel.swift */,
 				8247E4DB2B78D25100B7037B /* Model.swift */,
 				8247E4E52B7B74D800B7037B /* Customers.swift */,
+				825E4F972B7CCFA10009F499 /* TestView.swift */,
 				8247E4E72B7B757700B7037B /* CustomersViewViewModel.swift */,
 				8247E4DD2B78D37B00B7037B /* ViewModel.swift */,
 				8247E4B52B765C5A00B7037B /* Assets.xcassets */,
@@ -278,14 +290,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825E4F982B7CCFA10009F499 /* TestView.swift in Sources */,
 				8247E4DC2B78D25100B7037B /* Model.swift in Sources */,
 				8247E4B42B765C5900B7037B /* ContentView.swift in Sources */,
 				8247E4DE2B78D37B00B7037B /* ViewModel.swift in Sources */,
 				8247E4B22B765C5900B7037B /* HalyaApp.swift in Sources */,
 				8247E4E02B7B64B400B7037B /* GameControllers.swift in Sources */,
+				825E4F922B7CC2030009F499 /* GameInformationView.swift in Sources */,
 				8247E4E42B7B6F7A00B7037B /* CashiersViewViewModel.swift in Sources */,
+				825E4F9A2B7CD66D0009F499 /* GalyaView.swift in Sources */,
 				8247E4E22B7B690800B7037B /* Cashiers.swift in Sources */,
 				8247E4E82B7B757700B7037B /* CustomersViewViewModel.swift in Sources */,
+				825E4F962B7CCC5E0009F499 /* StartScreenView.swift in Sources */,
 				8247E4E62B7B74D800B7037B /* Customers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

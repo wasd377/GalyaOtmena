@@ -12,20 +12,23 @@ struct Cashiers: View {
     @EnvironmentObject var vm: CashierViewViewModel
     
     var body: some View {
-        VStack {
-            Text("\(vm.cashiers.count)")
-            Button("add") {
-                vm.cashiers.append(Cashier(position: 5, hasCustomer: false, cancelationRequired: false))
-            }
+  
+
             ZStack{
                 ForEach(vm.cashiers) { cashier in
-                    Image(systemName: "faxmachine")
+                    
+                    Image("cashier")
                     .resizable()
                     .frame(width: CGFloat(cashier.size), height: CGFloat(cashier.size))
-                    .offset(x: CGFloat(cashier.position))
+                    .offset(x: CGFloat(cashier.position), y: 10)
+                    Image("galya")
+                        .resizable()
+                        .frame(width: CGFloat(cashier.size), height: CGFloat(cashier.size))
+                        .offset(x: CGFloat(cashier.position+15), y: 10)
                 }
             }
-        }
+            .padding(.top, 50)
+        
     }
 }
 
